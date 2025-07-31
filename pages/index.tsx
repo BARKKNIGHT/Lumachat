@@ -79,7 +79,7 @@ function CollapsibleThink({ content }: { content: string }) {
 function CodeBlock({ inline, className, children, ...props }: any) {
   const code = String(children).replace(/\n$/, '')
   const [copied, setCopied] = useState(false)
-  const timer = useRef<number>()
+  const timer = useRef<number | null>(null)
 
   const handleCopy = async () => {
     try {
