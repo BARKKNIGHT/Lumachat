@@ -1,0 +1,6 @@
+# your real OpenAI key (or blank if you only test locally)
+OPENAI_API_KEY=
+# point at your LM Studio server for testing:
+OPENAI_API_BASE_URL=http://localhost:1234/v1/
+# the model you want to call
+MODEL_NAME=deepseek-r1-distill-qwen-7b
