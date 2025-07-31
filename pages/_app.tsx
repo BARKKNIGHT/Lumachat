@@ -4,6 +4,7 @@ import '../styles/globals.css'
 import 'highlight.js/styles/github-dark.css'
 import 'katex/dist/katex.min.css'
 import '../styles/globals.css'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // Import Highlight.js theme & KaTeX CSS here:
 import 'highlight.js/styles/github-dark.css'
