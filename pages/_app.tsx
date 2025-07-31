@@ -12,5 +12,11 @@ import 'highlight.js/styles/github-dark.css'
 import 'katex/dist/katex.min.css'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <SpeedInsights />
+      <Analytics />
+      <Component {...pageProps} />
+    </>
+  );
 }
